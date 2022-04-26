@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="script.css">
+    <title>Radar de velocidade</title>
+</head>
+<body>
+
+    <header>
+        <h1>Radar de velocidade</h1>
+    </header>
+
+    <main>
+
+        <div class="box">
+
+            <label for="percorrida">Velocidade Percorrida</label>
+            <input type="number" id="percorrida">
+
+            <label for="radar">Velocidade do Radar</label>
+            <input  id="radar" type="number" >
+
+            <button  onclick="calcular()" id="btn">Calcular</button>
+           
+        </div>
+
+        <div id="result">
+
+           
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
